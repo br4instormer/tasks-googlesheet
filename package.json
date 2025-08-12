@@ -1,0 +1,22 @@
+{
+  "name": "tasks-googlesheet",
+  "version": "1.0.0",
+  "main": "dummy.js",
+  "scripts": {
+    "login": "clasp login",
+    "logout": "clasp logout",
+    "push": "clasp push",
+    "pull": "clasp pull",
+    "help": "clasp -h"
+  },
+  "author": {
+    "name": "br4instormer",
+    "url": "https://github.com/br4instormer",
+    "email": "br4instormer@gmail.com"
+  },
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.99"
+  }
+}
