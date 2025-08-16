@@ -5,7 +5,7 @@ import { defineConfig } from "eslint/config";
 export default defineConfig([
   jsdoc.configs["flat/recommended"],
   {
-    files: ["**/*.js"],
+    files: ["**/*.js,**/*.gs"],
     languageOptions: {
       ecmaVersion: 2020,
       sourceType: "script",
