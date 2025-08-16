@@ -1,7 +1,7 @@
 /**
- *
- * @param {Sheet} лист для очистки
- * @param {number} номер последней строки заголовка
+ * Очищает значения на листе, за исключением заголовка
+ * @param {GoogleAppsScript.Spreadsheet.Sheet} sheet лист для очистки
+ * @param {number} headersRow номер последней строки заголовка
  */
 function clearSheet(sheet, headersRow) {
   const last = sheet.getLastRow();

@@ -1,8 +1,8 @@
 /**
  * Подсчитывает количество часов в колонке range
  * и выводит в всплывающем сообщении вместе с суммой по ставке rate
- * @param {string} Range с колонкой часов
- * @param {number} ставка за час
+ * @param {string} range Range с колонкой часов
+ * @param {number} rate ставка за час в рублях
  */
 function computeTotal(range, rate) {
   const ss = SpreadsheetApp.getActive();
@@ -33,7 +33,7 @@ function computeTotal(range, rate) {
 
 /**
  * Скрывает все листы в таблице исключая except
- * @param {string[]} массив имён листов, которые не нужно скрывать
+ * @param {string[]} except массив имён листов, которые не нужно скрывать
  */
 function hideSheets(except) {
   const exceptNames = except ?? [];
@@ -47,7 +47,7 @@ function hideSheets(except) {
 
 /**
  * Создает новый лист, либо переключается на существующий
- * @param {string} имя нового листа
+ * @param {string} name имя нового листа
  */
 function create(name) {
   const ss = SpreadsheetApp.getActive();
