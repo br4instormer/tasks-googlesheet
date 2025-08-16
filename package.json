@@ -7,7 +7,8 @@
     "logout": "clasp logout",
     "push": "clasp push",
     "pull": "clasp pull",
-    "help": "clasp -h"
+    "help": "clasp -h",
+    "lint": "eslint"
   },
   "author": {
     "name": "br4instormer",
@@ -17,6 +18,9 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@types/google-apps-script": "^1.0.99"
+    "@types/google-apps-script": "^1.0.99",
+    "eslint": "^9.33.0",
+    "eslint-plugin-googleappsscript": "^1.0.5",
+    "eslint-plugin-jsdoc": "^54.1.0"
   }
 }
